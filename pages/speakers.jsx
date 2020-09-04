@@ -23,7 +23,7 @@ export default function Speakers() {
 				<footer className={styles.footerLeft}>
 					<img className={styles.img} src="/map-marker-grey.png" />
 					&nbsp;&nbsp;
-					<a href="https://goo.gl/maps/xC8BG24kaKwPvVfr6" target="_blank"><p>2110&nbsp;Trawick&nbsp;Rd,&nbsp;Raleigh,&nbsp;NC&nbsp;27604 </p></a>
+					<a className={styles.darkgrey} href="https://goo.gl/maps/xC8BG24kaKwPvVfr6" target="_blank"><p>2110&nbsp;Trawick&nbsp;Rd,&nbsp;Raleigh,&nbsp;NC&nbsp;27604 </p></a>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<img className={styles.img} src="/phone-grey.png" /> 
 					&nbsp;&nbsp;
@@ -35,7 +35,7 @@ export default function Speakers() {
 				<nav className={[styles.navRight, styles.yellowFaded].join(' ')}>
 					<a href="/speakers" className={[styles.underline, styles.underlineYellow].join(' ')}>Speakers</a>
 					<a href="/schedule" className={[styles.underline, styles.underlineBlue].join(' ')}>Schedule</a>
-					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>Contact</a>
+					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>FAQ</a>
 					<a href="https://beaconbaptist.aware3.net/form/JYmEfUB" className={[styles.underline, styles.underlinePurple].join(' ')}> Register</a>
 				</nav>
 				<main className={[styles.mainRight, styles.yellowFaded].join(' ')}>
@@ -44,21 +44,21 @@ export default function Speakers() {
                         <img className={styles.medImg} src="/SharonRabon.png"/>
 					    <div className={styles.description}>
                             <h2>Sharon Rabon</h2>
-                            <p>Bethlie Young is wife to her husband David and mommy and educator to Abbie, Josh, Matt, Jake, and Charity. She and David were married in 1993, and she has served alongside of David in revival campaigns since the Fall of 1994. She ministers revival ministry and diligently endeavors to help her family live their life verse, Psalm 100:2: “serve the Lord with gladness.”</p>
+                            <p>Sharon is a do-it-all wife and mother who needs no sleep. She and David were married in 1993, and she has served alongside of David in revival campaigns since the Fall of 1994. She ministers revival ministry and diligently endeavors to help her family live their life verse, Psalm 100:2: “serve the Lord with gladness.”</p>
                         </div>
                     </div>
                     <div className={styles.profile}>
                         <img className={styles.medImg} src="/BethlieYoung.png"/>
                         <div className={styles.description}>
                             <h2>Bethlie Young</h2>
-                            <p>Bethlie Young is wife to her husband David and mommy and educator to Abbie, Josh, Matt, Jake, and Charity. She and David were married in 1993, and she has served alongside of David in revival campaigns since the Fall of 1994. She ministers revival ministry and diligently endeavors to help her family live their life verse, Psalm 100:2: “serve the Lord with gladness.” </p>
+                            <p>Bethlie Young is wife to Evangelist Dave Young and mom to five amazing children. She serves alongside David in their revival meetings and family conferences, as well as their Keeping It Young podcast Bethlie is a homeschoo mama who endeavors to live their family life verse: "Serve the Lord with gladness." Psalm 100:2.</p>
                         </div>
                     </div>
                     <div className={styles.profile}>
                         <img className={styles.medImg} src="/FrancieTaylor.png"/>
 					    <div className={styles.description}>
                             <h2>Francie Taylor</h2>
-                            <p>Bethlie Young is wife to her husband David and mommy and educator to Abbie, Josh, Matt, Jake, and Charity. She and David were married in 1993, and she has served alongside of David in revival campaigns since the Fall of 1994. She ministers revival ministry and diligently endeavors to help her family live their life verse, Psalm 100:2: “serve the Lord with gladness.”</p>
+                            <p>Francie is the wife of the late Norman Taylor and mom to three adult children: Austen (and wife Jessica), Hillary, and Collin. She has been a conference speaker since 1992, and has touched the lives of thousands. In the final week of Norman's life, he gave Francie many instructions including, "Don't stop teaching." Through the ministry of <span className={styles.italic}>Keep the Heart</span> she continues to help ladies to "keep thy heart with all diligence." Proverbs 4:23.</p>
                         </div>
                     </div>
 				</main>

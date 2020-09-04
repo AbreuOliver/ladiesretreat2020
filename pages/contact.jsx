@@ -35,12 +35,14 @@ export default function Home() {
 				<nav className={[styles.navRight, styles.pinkFaded].join(' ')}>
 					<a href="/speakers" className={[styles.underline, styles.underlineYellow].join(' ')}>Speakers</a>
 					<a href="/schedule" className={[styles.underline, styles.underlineBlue].join(' ')}>Schedule</a>
-					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>Contact</a>
+					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>FAQ</a>
 					<a href="https://beaconbaptist.aware3.net/form/JYmEfUB" className={[styles.underline, styles.underlinePurple].join(' ')}> Register</a>
 				</nav>
 				<main className={[styles.mainRight, styles.pinkFaded].join(' ')}>
-					<img className={styles.heroImg} src="/milk-cookies.png"/>
-					<h2>This is the location for the hero image</h2>
+                    {/* <img className={styles.heroImg} src="/milk-cookies.png"/> */}
+                    <h1>Frequently Asked Questions</h1>
+                    <h2>What Should I Bring?</h2>
+                    <p className={styles.profile}>Please bring a Bible, and a good friend!</p>
 				</main>
 				<footer className={styles.footerRight}>
 				</footer>

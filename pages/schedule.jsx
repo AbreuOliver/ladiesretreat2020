@@ -35,7 +35,7 @@ export default function Home() {
 				<nav className={[styles.navRight, styles.blueFaded].join(' ')}>
 					<a href="/speakers" className={[styles.underline, styles.underlineYellow].join(' ')}>Speakers</a>
 					<a href="/schedule" className={[styles.underline, styles.underlineBlue].join(' ')}>Schedule</a>
-					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>Contact</a>
+					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>FAQ</a>
 					<a href="https://beaconbaptist.aware3.net/form/JYmEfUB" className={[styles.underline, styles.underlinePurple].join(' ')}> Register</a>
 				</nav>
 				<main className={[styles.mainRight, styles.blueFaded].join(' ')}>
