@@ -9,12 +9,12 @@ export default function Home() {
 				<link rel="icon" href="/beaconlighthouse.ico" />
       		</Head>
 			<div className={styles.left}>
-				<nav className={[styles.navLeft, styles.green].join(' ')}>
-				<img className={styles.img} src="/beaconlighthouse.png" /> 
+				<nav className={[styles.navLeft, styles.blue].join(' ')}>
+                <img className={styles.img} src="/beaconlighthouse.png" /> 
 					&nbsp;&nbsp;
 					<h2><a href="/">Beacon Baptist Church</a></h2>
 				</nav>
-				<main className={[styles.mainLeft, styles.green].join(' ')}>
+				<main className={[styles.mainLeft, styles.blue].join(' ')}>
 					<h1 className={styles.title}>Better</h1>
 					<h1 className={styles.title}>Together</h1>
 					<h2>Ladies Retreat</h2>
@@ -32,18 +32,17 @@ export default function Home() {
 			</div>
 
 			<div className={styles.right}>
-				<nav className={styles.navRight}>
+				<nav className={[styles.navRight, styles.blueFaded].join(' ')}>
 					<a href="/speakers" className={[styles.underline, styles.underlineYellow].join(' ')}>Speakers</a>
 					<a href="/schedule" className={[styles.underline, styles.underlineBlue].join(' ')}>Schedule</a>
 					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>Contact</a>
 					<a href="https://beaconbaptist.aware3.net/form/JYmEfUB" className={[styles.underline, styles.underlinePurple].join(' ')}> Register</a>
 				</nav>
-				<main className={styles.mainRight}>
-					<img className={styles.heroImg} src="/milk-cookies.png"/>
-					{/* <h2>Psalm 133:1</h2> */}
+				<main className={[styles.mainRight, styles.blueFaded].join(' ')}>
+					<h1>Reteat Schedule</h1>
+					<h2>The schedule will be listed here</h2>
 				</main>
 				<footer className={styles.footerRight}>
-					<p>Psalm 133:1</p>
 				</footer>
 			</div>
     	</div>
