@@ -18,7 +18,7 @@ export default function Home() {
 					<h1 className={[styles.title, styles.black].join(' ')}>Better</h1>
 					<h1 className={[styles.title, styles.black].join(' ')}>Together</h1>
 					<h2 className={styles.black}>Ladies Retreat</h2>
-					<p className={styles.black}>November 13-14</p>
+					<p className={styles.black}>November 13-14, 2020</p>
 				</main>
 				<footer className={[styles.footerLeft, styles.black].join(' ')}>
 					<img className={styles.img} src="/map-marker-black.png" />

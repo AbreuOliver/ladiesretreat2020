@@ -44,14 +44,14 @@ export default function Speakers() {
                         <img className={styles.medImg} src="/SharonRabon.png"/>
 					    <div className={styles.description}>
                             <h2>Sharon Rabon</h2>
-                            <p>Sharon is a do-it-all wife and mother who needs no sleep. She and David were married in 1993, and she has served alongside of David in revival campaigns since the Fall of 1994. She ministers revival ministry and diligently endeavors to help her family live their life verse, Psalm 100:2: “serve the Lord with gladness.”</p>
+                            <p>Sharon grew up in a Chrisian home in Midland City, Alabama. She trusted Christ as her Savior when she was a child and gave her life to serve the Lord in lifetime ministry as a teenager. Sharon married her high school sweetheart, Tim Rabon, July 27, 1979. In 1981 they were asked to join the staff of Beacon Baptist Church in Raleigh, NC and in 1997 her husband became the pastor. Sharon is the director of ladies' ministries and serves as her husband's secretary. She is the mom of two sons and one daighter, all of whom are married and serve in lifetime ministry. She is known as Nana to eight cute kids!</p>
                         </div>
                     </div>
                     <div className={styles.profile}>
                         <img className={styles.medImg} src="/BethlieYoung.png"/>
                         <div className={styles.description}>
                             <h2>Bethlie Young</h2>
-                            <p>Bethlie Young is wife to Evangelist Dave Young and mom to five amazing children. She serves alongside David in their revival meetings and family conferences, as well as their Keeping It Young podcast Bethlie is a homeschoo mama who endeavors to live their family life verse: "Serve the Lord with gladness." Psalm 100:2.</p>
+                            <p>Bethlie Young is wife to Evangelist Dave Young and mom to five amazing children. She serves alongside David in their revival meetings and family conferences, as well as their Keeping It Young podcast Bethlie is a homeschool mama who endeavors to live their family life verse, "Serve the Lord with gladness." Psalm 100:2.</p>
                         </div>
                     </div>
                     <div className={styles.profile}>

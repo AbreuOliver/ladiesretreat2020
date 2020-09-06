@@ -18,7 +18,7 @@ export default function Home() {
 					<h1 className={styles.title}>Better</h1>
 					<h1 className={styles.title}>Together</h1>
 					<h2>Ladies Retreat</h2>
-					<p>November 13-14</p>
+					<p>November 13-14, 2020</p>
 				</main>
 				<footer className={styles.footerLeft}>
 					<img className={styles.img} src="/map-marker.png" />
@@ -41,8 +41,19 @@ export default function Home() {
 				<main className={[styles.mainRight, styles.pinkFaded].join(' ')}>
                     {/* <img className={styles.heroImg} src="/milk-cookies.png"/> */}
                     <h1>Frequently Asked Questions</h1>
-                    <h2>What Should I Bring?</h2>
-                    <p className={styles.profile}>Please bring a Bible, and a good friend!</p>
+					<div className={[styles.flexColumn, styles.scheduleText].join(' ')}>
+						<h2>Will there be vendors?</h2>
+						<div className={[styles.flexRow].join(' ')}>
+							<p>Yes.</p>&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<h2>Do I need cash??</h2>
+						<div className={[styles.flexRow].join(' ')}>
+							<p>Yes, if you purchase from the snack shop and some vendors.</p>&nbsp;&nbsp;&nbsp;&nbsp;
+						</div><h2>Will there be vendors?</h2>
+						<div className={[styles.flexRow].join(' ')}>
+							<p>Yes.</p>&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+					</div>
 				</main>
 				<footer className={styles.footerRight}>
 				</footer>
