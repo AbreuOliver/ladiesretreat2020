@@ -31,7 +31,7 @@ export default function Home() {
 				</footer>
 			</div>
 
-			<div className={styles.right}>
+			<div className={[styles.right, styles.greenFaded].join(' ')}>
 				<nav className={[styles.navRight, styles.black].join(' ')}>
 					<a href="/speakers" className={[styles.underline, styles.underlineYellow].join(' ')}>Speakers</a>
 					<a href="/schedule" className={[styles.underline, styles.underlineBlue].join(' ')}>Schedule</a>

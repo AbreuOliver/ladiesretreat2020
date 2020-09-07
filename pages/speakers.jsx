@@ -18,7 +18,7 @@ export default function Speakers() {
 					<h1 className={[styles.title, styles.darkgrey].join(' ')}>Better</h1>
 					<h1 className={[styles.title, styles.darkgrey].join(' ')}>Together</h1>
 					<h2 className={styles.darkgrey}>Ladies Retreat</h2>
-					<p className={styles.darkgrey}>November 13-14</p>
+					<p className={styles.darkgrey}>November 13-14, 2020</p>
 				</main>
 				<footer className={styles.footerLeft}>
 					<img className={styles.img} src="/map-marker-grey.png" />

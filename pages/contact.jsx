@@ -31,7 +31,7 @@ export default function Home() {
 				</footer>
 			</div>
 
-			<div className={styles.right}>
+			<div className={[styles.right, styles.greenFaded].join(' ')}>
 				<nav className={[styles.navRight, styles.pinkFaded].join(' ')}>
 					<a href="/speakers" className={[styles.underline, styles.underlineYellow].join(' ')}>Speakers</a>
 					<a href="/schedule" className={[styles.underline, styles.underlineBlue].join(' ')}>Schedule</a>
@@ -46,7 +46,7 @@ export default function Home() {
 						<div className={[styles.flexRow].join(' ')}>
 							<p>Yes.</p>&nbsp;&nbsp;&nbsp;&nbsp;
 						</div>
-						<h2>Do I need cash??</h2>
+						<h2>Do I need cash?</h2>
 						<div className={[styles.flexRow].join(' ')}>
 							<p>Yes, if you purchase from the snack shop and some vendors.</p>&nbsp;&nbsp;&nbsp;&nbsp;
 						</div><h2>Will there be vendors?</h2>

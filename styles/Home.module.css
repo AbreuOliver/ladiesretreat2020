@@ -138,7 +138,6 @@
   align-items: center;
   height: 100vh;
   width: 50vw;
-  background-color: #10F9BB;
 }
 
 .navRight {
@@ -310,109 +309,459 @@
 }
 
 
-/* ////// MOBILE VERSION ////// */
+/* ////// TABLET VERSION ////// */
 
 @media (max-width: 1025px) {
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* min-height: 100vh; */
-  width: 100vw;
-  font-family: Alata;
-  color: white;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    width: 100vw;
+    font-family: Alata;
+    color: white;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100vw;
+  }
+
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+  }
+
+  .mainLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+  }
+
+  .mainLeft p {
+    margin-top: -10px;
+  }
+
+  .footerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    position: absolute;
+    bottom: 0;
+  }
+
+
+  /* >>>>> RIGHT */
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    font-size: 1.25rem;
+  }
+
+  .mainRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    min-width: 80%;
+  }
+
+  .footerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .footerRight p {
+    display: none;
+  }
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 60%;
-  width: 100vw;
+/* MOBILE VERSION */
+@media (max-width: 500px) {
+  .title {
+    margin: 0;
+    line-height: 0.75;
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Covered By Your Grace', cursive;
+  }
+  
+  
+  .mainLeft h2 {
+    line-height: 1;
+    font-size: 2.25rem;
+    margin-top: 50px;
+    font-family: "Alata", sans-serif;
+  }
+  
+  .mainLeft p {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-family: "Alata", sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: Alata;
+    color: white;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    flex-grow: 1;
+  }
+  
+  .mainLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .mainLeft p {
+    margin-top: -10px;
+  }
+  
+  .footerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75rem;
+  }
+  
+  
+  /* >>>>> RIGHT */
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    font-size: 0.75rem;
+  }
+  
+  .mainRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .mainRight h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 4rem;
+    font-size: 2rem;
+    line-height: 0.025;
+  }
+  
+  .mainRight h2 {
+    line-height: 0.25;
+  }
+  
+  .footerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 50px;
+    height: 50px;
+    width: 100vw;
+    flex-grow: 1;
+    /* position: absolute; */
+    /* bottom: 0; */
+  }
+
+  .footerRight p {
+    display: none;
+  }
+
+  .img {
+    max-width: 80%;
+    max-height: 15px;
+  }
+  
+  .heroImg {
+    max-width: 100%;
+  }
+  
+  .medImg {
+    max-width: 100px;
+    margin: 0 15px 0 -10px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 0.65rem;
+    /* font-size: medium; */
+  }
+
+  .profile h1 {
+    font-size: 1rem;
+  }
+
+  .scheduleText {
+    line-height: 10px;
+    line-height: 0.5;
+    font-size: 0.75rem;
+  }
 }
 
-.navLeft {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100vw;
-  flex-grow: 1;
-}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> iPhone SE Version <<< */
+@media (max-width: 500px) {
+  .title {
+    margin: 0;
+    line-height: 0.75;
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Covered By Your Grace', cursive;
+  }
+  
+  
+  .mainLeft h2 {
+    line-height: 1;
+    font-size: 2.25rem;
+    margin-top: 50px;
+    font-family: "Alata", sans-serif;
+  }
+  
+  .mainLeft p {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-family: "Alata", sans-serif;
+  }
 
-.mainLeft {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-}
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: Alata;
+    color: white;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    flex-grow: 1;
+  }
+  
+  .mainLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .mainLeft p {
+    margin-top: -10px;
+  }
+  
+  .footerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75rem;
+  }
+  
+  
+  /* >>>>> RIGHT */
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    font-size: 0.75rem;
+  }
+  
+  .mainRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .mainRight h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 4rem;
+    font-size: 2rem;
+    line-height: 0.025;
+  }
+  
+  .mainRight h2 {
+    line-height: 0.25;
+  }
+  
+  .footerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-height: 50px;
+    height: 50px;
+    width: 100vw;
+    flex-grow: 1;
+  }
 
-.mainLeft p {
-  margin-top: -10px;
-}
+  .footerRight p {
+    display: none;
+  }
 
-.footerLeft {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-height: 100px;
-  height: 100px;
-  width: 100vw;
-  flex-grow: 1;
-  position: absolute;
-  bottom: 0;
-}
+  .img {
+    max-width: 80%;
+    max-height: 15px;
+  }
+  
+  .heroImg {
+    max-width: 100%;
+  }
+  
+  .medImg {
+    max-width: 100px;
+    margin: 0 15px 0 -10px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 0.65rem;
+    /* font-size: medium; */
+  }
 
+  .profile h1 {
+    font-size: 1rem;
+  }
 
-/* >>>>> RIGHT */
-.right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: #10F9BB;
-}
-
-.navRight {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 100px;
-  width: 50vw;
-  flex-grow: 1;
-  font-size: 1.25rem;
-}
-
-.mainRight {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 50vw;
-  min-width: 80%;
-  border: 1px solid black;
-}
-
-.footerRight {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-height: 100px;
-  height: 100px;
-  width: 50vw;
-  flex-grow: 1;
-  position: absolute;
-  bottom: 0;
-}
+  .scheduleText {
+    line-height: 10px;
+    line-height: 0.5;
+    font-size: 0.75rem;
+  }
 }
