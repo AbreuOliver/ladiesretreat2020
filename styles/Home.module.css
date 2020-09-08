@@ -283,10 +283,17 @@
 .flexRow {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  /* border-bottom: 0.5px solid lightslategray; */
+}
+
+.flexRow h2 {
+  margin-top: 50px;
 }
 
 .flexRow p {
-  line-height: 5px;
+  line-height: 15px;
   margin-bottom: 15px;
 }
 
