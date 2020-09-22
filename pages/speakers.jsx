@@ -19,6 +19,7 @@ export default function Speakers() {
 					<h1 className={[styles.title, styles.darkgrey].join(' ')}>Together</h1>
 					<h2 className={styles.darkgrey}>Ladies Retreat</h2>
 					<p className={styles.darkgrey}>November 13-14, 2020</p>
+					<h3 className={styles.notice}><em>Early registration discount ends November 1st</em></h3>
 				</main>
 				<footer className={styles.footerLeft}>
 					<img className={styles.img} src="/map-marker-grey.png" />
@@ -36,6 +37,7 @@ export default function Speakers() {
 					<a href="/speakers" className={[styles.underline, styles.underlineYellow].join(' ')}>Speakers</a>
 					<a href="/schedule" className={[styles.underline, styles.underlineBlue].join(' ')}>Schedule</a>
 					<a href="/contact" className={[styles.underline, styles.underlinePink].join(' ')}>FAQ</a>
+					<a href="/hotels" className={[styles.underline, styles.underlineWhite].join(' ')}>Hotels</a>
 					<a href="https://beaconbaptist.aware3.net/form/JYmEfUB" className={[styles.underline, styles.underlinePurple].join(' ')}> Register</a>
 				</nav>
 				<main className={[styles.mainRight, styles.yellowFaded].join(' ')}>
