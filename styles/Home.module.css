@@ -86,6 +86,8 @@
   background-color: #2456b8;
   border-radius: 30px;
   animation: wiggle 4s infinite; 
+  text-align: center;
+  margin: 0 20px; 
 }
 /* 
 .notice:hover {
