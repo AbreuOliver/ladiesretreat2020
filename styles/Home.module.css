@@ -87,11 +87,11 @@
   border-radius: 30px;
   animation: wiggle 4s infinite; 
 }
-
+/* 
 .notice:hover {
   color: #2456b8;
   border: 2px solid #fff;
-}
+} */
 
 /* CONTAINER */
 .container {
@@ -295,6 +295,10 @@
 
 .medImg {
   max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  min-width: 50px;
   margin: 0 15px 0 -10px;
 }
 

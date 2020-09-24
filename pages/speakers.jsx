@@ -46,7 +46,7 @@ export default function Speakers() {
                         <img className={styles.medImg} src="/SharonRabon.png"/>
 					    <div className={styles.description}>
                             <h2>Sharon Rabon</h2>
-                            <p>Sharon grew up in a Christian home in Midland City, Alabama. She trusted Christ as her Savior when she was a child and gave her life to serve the Lord in lifetime ministry as a teenager. Sharon married her high school sweetheart, Tim Rabon, July 27, 1979. In 1981 they were asked to join the staff of Beacon Baptist Church in Raleigh, NC and in 1997 her husband became the pastor. Sharon is the director of ladies' ministries and serves as her husband's secretary. She is the mom of two sons and one daughter, all of whom are married and serve in lifetime ministry. She is known as Nana to eight cute kids!</p>
+                            <p>Sharon grew up in a Christian home in Midland City, Alabama and married her high school sweetheart, Tim Rabon, July 27, 1979. In 1981 they were asked to join the staff of Beacon Baptist Church in Raleigh, NC and in 1997 her husband became the pastor. She is the mom of two sons and one daughter, all of whom are married and serve in lifetime ministry. She is known as Nana to eight cute kids!</p>
                         </div>
                     </div>
                     <div className={styles.profile}>
